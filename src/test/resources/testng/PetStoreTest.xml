@@ -2,9 +2,9 @@
 
 <suite name="FullUITestSuite" verbose="1" parallel="tests" thread-count="4">
 
-	<test name="Get NBA Events">
+	<test name="Pet Store Test: GET-POST-DELETE">
 		<classes>
-			<class name="api.odds.GetNBAEvents">
+			<class name="api.petstore.PetStoreAPITest">
 			</class>
 		</classes>
 	</test>
