@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullUITestSuite" verbose="1" parallel="tests" thread-count="4">
+
+	<test name="Get NBA Events">
+		<classes>
+			<class name="api.odds.GetNBAEvents">
+			</class>
+		</classes>
+	</test>
+
+</suite>
