@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FullUITestSuite" verbose="1" parallel="tests" thread-count="4">
+
+	<test name="Get All Sports">
+		<classes>
+			<class name="api.odds.GetAllSportsTest" />
+		</classes>
+	</test>
+
+	<test name="Get NBA Events">
+		<classes>
+			<class name="api.odds.GetNBAEvents">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Get NBA Scores">
+		<classes>
+			<class name="api.odds.GetNBAScores" />
+		</classes>
+	</test>
+	
+	<test name="Get US Election Odds">
+		<classes>
+			<class name="api.odds.GetUSElectionOdds" />
+		</classes>
+	</test>
+</suite>
