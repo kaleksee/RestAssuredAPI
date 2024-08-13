@@ -75,7 +75,7 @@
                 <version>2.12</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>FullOddsApiTestSuite.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/testng/FullOddsApiTestSuite.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
